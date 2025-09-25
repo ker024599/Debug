@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.enablecamera</string>
+            <key>PayloadUUID</key>
+            <string>33333333-CCCC-3333-CCCC-333333333333</string>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadDisplayName</key>
+            <string>Restrictions</string>
+            <key>allowCamera</key>
+            <true/>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Enable Camera</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.enablecamera.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>44444444-DDDD-4444-DDDD-444444444444</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
